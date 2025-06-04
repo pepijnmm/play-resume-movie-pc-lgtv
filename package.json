@@ -1,0 +1,20 @@
+{
+	"name": "lgtv-to-pc",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"startNoHarmony": "node indexNoHarmony.js",
+		"getActivityId": "node getCurrentActivityId.js"
+	},
+	"author": "Pepijn",
+	"license": "Apache-2.0",
+	"description": "Play and resume a movie playing on pc by using the LgTV mute button",
+	"dependencies": {
+		"@harmonyhub/client-ws": "^1.0.9",
+		"@nut-tree-fork/nut-js": "^4.2.6",
+		"config": "^4.0.0",
+		"lgtv2": "^1.6.3",
+		"node-hide-console-window": "^2.2.0"
+	}
+}

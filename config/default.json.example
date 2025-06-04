@@ -1,0 +1,6 @@
+{
+	"lgIp": "tv ip here",
+	"harmonyIp": "harmony_ip_here",
+	"harmonyActivityIdPc": "harmony_activity_id_to_trigger",
+	"hideConsole": false
+}
